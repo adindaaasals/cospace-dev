@@ -2,11 +2,11 @@
   <div class="flex flex-col items-center">
     <h1 class="mt-5 text-[24px] font-bold">{{ auth()->user()->name }}</h1>
     <p class="mb-4 text-[#112211]">{{ auth()->user()->email }}</p>
-    <div class="inline-flex rounded-md shadow-lg" role="group">
+    <div class="inline-flex rounded-md shadow-lg px-8 md:px-0 xl:px-16" role="group">
       <a href="{{ route('profile') }}">
         <button
           type="button"
-          class="rounded-s-lg border border-black bg-transparent px-40 py-5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-gray-900 focus:text-white focus:ring-2 focus:ring-gray-500"
+          class="rounded-s-lg border border-black bg-transparent px-6 md:px-12 lg:px-20 xl:px-40 py-2 md:py-5 lg:py-3 text-xs md:text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-gray-900 focus:text-white focus:ring-2 focus:ring-gray-500"
         >
           Pengaturan Akun
         </button>
@@ -14,15 +14,15 @@
       <a href="{{ route('profileReservation') }}">
         <button
           type="button"
-          class="border-b border-t border-gray-900 bg-transparent px-40 py-5 text-sm font-medium text-[#079D75] hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-white focus:text-[#079D75] focus:ring-2 focus:ring-gray-500"
+          class="border-b border-t border-gray-900 bg-transparent px-6 md:px-12 lg:px-20 xl:px-40 py-2 md:py-5 lg:py-3 text-xs md:text-sm font-medium text-[#079D75] hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-white focus:text-[#079D75] focus:ring-2 focus:ring-gray-500"
         >
           Reservasi Saya
         </button>
       </a>
-      <a href="{{ route('profileBooking') }}">
+      <a href="{{ route('profileBookmark') }}">
         <button
           type="button"
-          class="rounded-e-lg border border-gray-900 bg-transparent px-40 py-5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-gray-900 focus:text-white focus:ring-2 focus:ring-gray-500"
+          class="rounded-e-lg border border-gray-900 bg-transparent px-6 md:px-12 lg:px-20 xl:px-40 py-2 md:py-5 text-xs md:text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-gray-900 focus:text-white focus:ring-2 focus:ring-gray-500"
         >
           Bookmark
         </button>

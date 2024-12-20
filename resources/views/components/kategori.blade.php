@@ -3,15 +3,15 @@
 <div class="flex flex-wrap justify-center gap-6 pt-5">
   <figure class="image-text-container relative">
     <a href="/workspace?search=coworking">
-      <img class="h-[250px] w-[367px] rounded-t-lg" src="{{ asset('assets/images/kategori1.png') }}" alt="kategori1" />
+      <img class="h-[150px] w-[267px] lg:h-[250px] lg:w-[367px] rounded-t-lg" src="{{ asset('assets/images/kategori1.png') }}" alt="kategori1" />
     </a>
-    <figcaption class="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center  font-[22px] text-white">
+    <figcaption class="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center  text-base lg:font-[22px] text-white">
       <p>Coworking (Private)</p>
     </figcaption>
   </figure>
   <figure class="image-text-container relative">
     <a href="/workspace?search=meeting">
-      <img class="h-[250px] w-[367px] rounded-t-lg" src="{{ asset('assets/images/kategori2.png') }}" alt="kategori2" />
+      <img class="h-[150px] w-[267px] lg:h-[250px] lg:w-[367px] rounded-t-lg" src="{{ asset('assets/images/kategori2.png') }}" alt="kategori2" />
     </a>
     <figcaption class="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center  font-[22px] text-white">
       <p>Meeting Room</p>
@@ -19,7 +19,7 @@
   </figure>
   <figure class="image-text-container relative">
     <a href="/workspace?search=event">
-      <img class="h-[250px] w-[367px] rounded-t-lg" src="{{ asset('assets/images/kategori3.png') }}" alt="kategori3" />
+      <img class="h-[150px] w-[267px] lg:h-[250px] lg:w-[367px] rounded-t-lg" src="{{ asset('assets/images/kategori3.png') }}" alt="kategori3" />
     </a>
     <figcaption class="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center  font-[22px] text-white">
       <p>Event Hall</p>
@@ -27,7 +27,7 @@
   </figure>
   <figure class="image-text-container relative">
     <a href="/workspace?search=studio">
-      <img class="h-[250px] w-[367px] rounded-t-lg" src="{{ asset('assets/images/kategori4.png') }}" alt="kategori2" />
+      <img class="h-[150px] w-[267px] lg:h-[250px] lg:w-[367px] rounded-t-lg" src="{{ asset('assets/images/kategori4.png') }}" alt="kategori2" />
     </a>
     <figcaption class="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center  font-[22px] text-white">
       <p>Studio</p>
@@ -35,7 +35,7 @@
   </figure>
   <figure class="image-text-container relative">
     <a href="/workspace?search=private">
-      <img class="h-[250px] w-[367px] rounded-t-lg" src="{{ asset('assets/images/kategori5.png') }}" alt="kategori2" />
+      <img class="h-[150px] w-[267px] lg:h-[250px] lg:w-[367px] rounded-t-lg" src="{{ asset('assets/images/kategori5.png') }}" alt="kategori2" />
     </a>
     <figcaption class="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center  font-[22px] text-white">
       <p>Private Office</p>

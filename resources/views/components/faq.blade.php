@@ -1,10 +1,10 @@
-<div class="py-20 lg:px-20 xl:px-32">
-  <div class="grid grid-cols-1 rounded-lg bg-[#211951] p-5 lg:grid-cols-2 lg:p-10 xl:p-16">
+<div class="p-12 lg:p-20 xl:py-20 xl:px-32">
+  <div class="grid grid-cols-1 rounded-lg bg-[#211951] p-5 lg:grid-cols-2 p-12 lg:p-10 xl:p-16">
     <div class="faq-kiri mb-8 lg:mb-0 lg:mr-6">
-      <h5 class="text-left text-[22px] font-semibold text-white lg:text-[26px] xl:text-[26px]">
+      <h5 class="text-left text-[18px] font-semibold text-white lg:text-[26px] xl:text-[26px]">
         Pertanyaan Sering Diajukan
       </h5>
-      <p class="text-left text-[16px] font-light text-white lg:mt-5">
+      <p class="text-left text-sm lg:text-[16px] font-light text-white lg:mt-5">
         Temukan jawaban yang cepat untuk
         <br />
         pertanyaan umum mengenai layanan kami.
@@ -14,7 +14,7 @@
       <div class="mb-7 w-full max-w-lg rounded-lg bg-white">
         <div id="accordion-nested-collapse" data-accordion="collapse">
           <h2 id="accordion-nested-collapse-heading-1">
-            <div class="mt-3 flex items-center justify-between p-5 text-[16px] font-bold text-[#3E4095]">
+            <div class="lg:mt-3 flex items-center justify-between p-5 text-sm lg:text-[16px] font-bold text-[#3E4095]">
               Bagaimana saya dapat memesan workspace di CoSpace?
               <button
                 type="button"
@@ -81,7 +81,7 @@
       <div class="mb-7 w-full max-w-lg rounded-lg bg-white">
         <div id="accordion-nested-collapse" data-accordion="collapse">
           <h2 id="accordion-nested-collapse-heading-2">
-            <div class="mt-3 flex items-center justify-between p-5 text-[16px] font-bold text-[#3E4095]">
+            <div class="lg:mt-3 flex items-center justify-between p-5 text-sm lg:text-[16px] font-bold text-[#3E4095]">
               Metode pembayaran apa saja yang diterima di CoSpace?
               <button
                 type="button"
@@ -146,7 +146,7 @@
       <div class="mb-7 w-full max-w-lg rounded-lg bg-white">
         <div id="accordion-nested-collapse" data-accordion="collapse">
           <h2 id="accordion-nested-collapse-heading-3">
-            <div class="mt-3 flex items-center justify-between p-5 text-[16px] font-bold text-[#3E4095]">
+            <div class="lg:mt-3 flex items-center justify-between p-5 text-sm lg:text-[16px] font-bold text-[#3E4095]">
               Bagaimana jika saya mengalami masalah atau memiliki pertanyaan selama proses pemesanan?
               <button
                 type="button"
@@ -210,7 +210,7 @@
       <div class="mb-7 w-full max-w-lg rounded-lg bg-white">
         <div id="accordion-nested-collapse" data-accordion="collapse">
           <h2 id="accordion-nested-collapse-heading-4">
-            <div class="mt-3 flex items-center justify-between p-5 text-[16px] font-bold text-[#3E4095]">
+            <div class="lg:mt-3 flex items-center justify-between p-5 text-sm lg:text-[16px] font-bold text-[#3E4095]">
               Apakah saya dapat memperpanjang waktu reservasi workspace saya?
               <button
                 type="button"

@@ -6,7 +6,7 @@
       <a href="{{ route('profile') }}">
         <button
           type="button"
-          class="rounded-s-lg border border-black bg-transparent px-40 py-5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-gray-900 focus:text-white focus:ring-2 focus:ring-gray-500"
+          class="rounded-s-lg border border-black bg-transparent px-6 md:px-12 lg:px-20 xl:px-40 py-2 md:py-5 text-xs md:text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-gray-900 focus:text-white focus:ring-2 focus:ring-gray-500"
         >
           Pengaturan Akun
         </button>
@@ -14,7 +14,7 @@
       <a href="{{ route('profileReservation') }}">
         <button
           type="button"
-          class="border-b border-t border-gray-900 bg-transparent px-40 py-5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-gray-900 focus:text-white focus:ring-2 focus:ring-gray-500"
+          class="border-b border-t border-gray-900 bg-transparent px-6 md:px-12 lg:px-20 xl:px-40 py-2 md:py-5 text-xs md:text-smm font-medium text-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-gray-900 focus:text-white focus:ring-2 focus:ring-gray-500"
         >
           Reservasi Saya
         </button>
@@ -22,7 +22,7 @@
       <a href="{{ route('profileBookmark') }}">
         <button
           type="button"
-          class="rounded-e-lg border border-gray-900 bg-transparent px-40 py-5 text-sm font-medium text-[#079D75] hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-gray-900 focus:text-[#079D75] focus:ring-2 focus:ring-gray-500"
+          class="rounded-e-lg border border-gray-900 bg-transparent px-6 md:px-12 lg:px-20 xl:px-40 py-2 md:py-5 text-xs md:text-sm font-medium text-[#079D75] hover:bg-gray-900 hover:text-white focus:z-10 focus:bg-gray-900 focus:text-[#079D75] focus:ring-2 focus:ring-gray-500"
         >
           Bookmark
         </button>

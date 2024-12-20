@@ -1,7 +1,7 @@
-<div class="px-4 pt-12 lg:px-24">
+<div class="px-12 pt-12 lg:px-24">
   <h5 class="font-bold text-black lg:text-[26px]">Testimoni</h5>
   <p class="mb-6 text-left text-[16px] font-light text-[#666666]">Pendapat Mereka tentang CoSpace</p>
-  <div class="flex flex-col items-center gap-y-4 sm:flex-row sm:justify-center lg:gap-8">
+  <div class="flex flex-col items-center gap-y-4 sm:flex-row sm:justify-center gap-4 lg:gap-8">
     <x-testimoni-card
       name="Olivia"
       job="Freelancer"
@@ -9,7 +9,8 @@
             mudah! Saya dapat dengan lancar
             merencanakan kegiatan saya."
     />
-    <div class="rounded-[5px] border-[1px] border-[#211951] bg-white p-7">
+    
+    <div class="rounded-[5px] border-[1px] border-[#211951] bg-white py-7 px-5 lg:p-7">
       <h5 class="font-medium text-black lg:text-[16px] xl:text-[20px]">Alaina</h5>
       <p class="text-left font-light text-[#666666] lg:text-[12px] xl:text-[16px]">Worker</p>
       <div class="flex items-center">
@@ -31,6 +32,7 @@
         Pelayanan pemesanan CoSpace sangat baik. Saya mendapat ruang sesuai kebutuhan tanpa repot
       </p>
     </div>
+
     <x-testimoni-card
       name="Conan"
       job="Event Organizer"

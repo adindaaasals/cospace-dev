@@ -35,7 +35,7 @@
           </div>
         </form>
         <div class="mt-3 flex items-center justify-between">
-          <a href="{{ route('auth.login') }}" class="text-sm text-[#001A8D]">Kembali ke halaman Login</a>
+          <a href="{{ route('auth.login.view') }}" class="text-sm text-[#001A8D]">Kembali ke halaman Login</a>
         </div>
       </div>
     </div>
